@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aider-test-project"
+version = "0.1.0"
+description = ""
+authors = ["zolcsika71 <bushdoctor2008@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
